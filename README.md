@@ -18,7 +18,7 @@
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-andyydz57-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/andyydz57)
 [![Rank](https://img.shields.io/badge/Rank-Top%2035%25-1ec261?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/andyydz57)
 [![Rooms](https://img.shields.io/badge/Rooms%20Completed-12%2B-blue?style=for-the-badge)](https://tryhackme.com/p/andyydz57)
-[![Streak](https://img.shields.io/badge/Streak-6%20Days%20🔥-orange?style=for-the-badge)](https://tryhackme.com/p/andyydz57)
+[![Streak](https://img.shields.io/badge/Streak-6%20Days%20-orange?style=for-the-badge)](https://tryhackme.com/p/andyydz57)
 
 </div>
 
@@ -37,7 +37,7 @@
 
 <div align="center">
 
-|  THM Rank |  Badges |   Streak |   Rooms Done |
+|   THM Rank |   Badges |   Streak |   Rooms Done |
 |:-----------:|:---------:|:---------:|:-------------:|
 | **Top 35%** | **2** | **6 Days** | **12+** |
 
@@ -60,11 +60,11 @@
 ```
 📁 tryhackme-writeups/
 │
-├──  cybersecurity/        → Fundamentals, ethical hacking, threat concepts
-├──  linux/                → CLI practice, permissions, administration
-├──  windows/              → CMD, PowerShell, Active Directory basics
-├──  network-concepts/     → Protocols, OSI model, practical labs
-└──   soc/                 → Blue team ops, monitoring, incident response
+├── 📁  cybersecurity/        → Fundamentals, ethical hacking, threat concepts
+├── 📁  linux/                → CLI practice, permissions, administration
+├── 📁   windows/              → CMD, PowerShell, Active Directory basics
+├── 📁 network-concepts/     → Protocols, OSI model, practical labs
+└── 📁  soc/                 → Blue team ops, monitoring, incident response
 ```
 
 Each room follows this structure:
@@ -77,10 +77,10 @@ room-name/
 
 ---
 
-## ` Technical Areas`
+## `  Technical Areas`
 
 <details>
-<summary><b> Linux</b></summary>
+<summary><b>  Linux</b></summary>
 <br/>
 
 - Linux Fundamentals & CLI Navigation
@@ -91,7 +91,7 @@ room-name/
 </details>
 
 <details>
-<summary><b> Windows</b></summary>
+<summary><b>  Windows</b></summary>
 <br/>
 
 - Windows Fundamentals & File System
@@ -102,7 +102,7 @@ room-name/
 </details>
 
 <details>
-<summary><b> Networking</b></summary>
+<summary><b>  Networking</b></summary>
 <br/>
 
 - OSI Model & TCP/IP Stack
@@ -114,7 +114,7 @@ room-name/
 </details>
 
 <details>
-<summary><b> Cybersecurity</b></summary>
+<summary><b>  Cybersecurity</b></summary>
 <br/>
 
 - Offensive & Defensive Security Fundamentals
@@ -125,7 +125,7 @@ room-name/
 </details>
 
 <details>
-<summary><b> SOC & Blue Team</b></summary>
+<summary><b>  SOC & Blue Team</b></summary>
 <br/>
 
 - SOC Fundamentals & Operations Awareness
@@ -137,7 +137,7 @@ room-name/
 
 ---
 
-## ` Example Lab Commands`
+## `  Example Lab Commands`
 
 ```bash
 # Basic connectivity test
@@ -155,7 +155,7 @@ netstat -ano
 
 ---
 
-## ` Objective`
+## `  Objective`
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -195,5 +195,5 @@ netstat -ano
 ---
 
 <div align="center">
-<sub>Built with curiosity, late nights
+<sub>Built with curiosity, late nights, and a lot of <code>man</code> pages.</sub>
 </div>
