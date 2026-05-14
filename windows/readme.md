@@ -1,60 +1,73 @@
 # Windows – TryHackMe Write-ups
 
-This folder contains my Windows-related TryHackMe write-ups, notes, and practical exercises.
-
-While completing these rooms, I learned the basics of Windows operating systems, command-line usage, Active Directory concepts, PowerShell fundamentals, and Windows file system navigation. These skills are important for understanding how Windows environments work in real-world IT and cybersecurity environments.
-
-These write-ups are part of my hands-on cybersecurity learning journey and help me build practical knowledge for SOC Analyst and cybersecurity roles.
+## Introduction
+This folder contains my Windows-related TryHackMe notes, writeups, and practical exercises.
 
 ---
 
 ## Topics Covered
 
-### Windows Fundamentals
-- Basics of the Windows operating system
-- User accounts and permissions
-- Windows security features
-- System navigation and administration basics
+### Windows Basics
+#### Concept
+Learned the basics of the Windows operating system and system management.
 
-### Windows File System
-- File and directory structure
-- System folders
-- NTFS basics
-- File management concepts
+#### Example
+Using Task Manager to view running processes.
 
-### CMD Commands
-- Basic Windows command-line commands
-- File and directory navigation
-- Network and system commands
-- Troubleshooting basics using CMD
+#### Real-World Use Case
+Windows systems are commonly used in organizations and enterprise environments.
 
-### Windows PowerShell
-- PowerShell basics
-- Running commands and scripts
-- System administration commands
-- Automation fundamentals
+---
+
+### Windows CLI Basics
+#### Concept
+CMD allows users to manage systems using command-line commands.
+
+#### Example
+```cmd
+ipconfig
+tasklist
+whoami
+```
+
+#### Real-World Use Case
+SOC analysts use CMD commands during investigations and troubleshooting.
+
+---
+
+### PowerShell
+#### Concept
+PowerShell is used for automation and system administration.
+
+#### Example
+```powershell
+Get-Process
+```
+
+#### Real-World Use Case
+Security teams automate tasks and collect logs using PowerShell scripts.
+
+---
 
 ### Active Directory
-- Basics of Active Directory
-- Users, groups, and permissions
-- Domain concepts
-- Importance of AD in enterprise environments
+#### Concept
+Active Directory manages users, computers, and permissions in Windows domains.
+
+#### Example
+Creating users and groups in a domain environment.
+
+#### Real-World Use Case
+Large companies use Active Directory to manage employee access and authentication.
 
 ---
 
-## Skills Practiced
-
-- Windows system navigation
+## Skills Learned
+- Windows administration
 - Command-line usage
-- Basic system administration
-- Understanding enterprise Windows environments
-- Troubleshooting using CMD and PowerShell
-- Learning Active Directory fundamentals
+- PowerShell basics
+- Active Directory understanding
 
 ---
 
-## Goal
-
-My goal is to build strong Windows and system administration fundamentals through hands-on labs and practical exercises while developing a professional cybersecurity portfolio on GitHub.
-
-More Windows-related write-ups and labs will be added as I continue learning.
+## Conclusion
+These writeups helped me understand Windows environments and enterprise security concepts used in cybersecurity.
