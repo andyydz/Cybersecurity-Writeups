@@ -1,70 +1,168 @@
 # Attacks and Defenses
 
-## Introduction
-This folder contains my TryHackMe writeups and notes related to cybersecurity attacks, defense strategies, and security fundamentals.
+This folder contains my notes and write-ups from attack and defense-related rooms and modules completed on [TryHackMe](https://tryhackme.com/p/andyydz57).
+
+The purpose of these write-ups is to build a strong understanding of cybersecurity fundamentals, threat detection, offensive security concepts, and defensive security practices used in real-world environments.
+
+Attacks and defense concepts are essential foundations for cybersecurity, SOC operations, ethical hacking, and incident response.
 
 ---
 
-## Topics Covered
+# Topics Covered
 
-### Become a Defender
-#### Concept
-Learned the basics of defensive security and SOC operations.
+## 1. Become a Defender
 
-#### Example
-Monitoring suspicious login attempts in system logs.
+Introduction to defensive security and SOC-related concepts.
 
-#### Real-World Use Case
-SOC analysts monitor alerts and investigate threats inside company networks.
+### Key Concepts
+- Blue Team operations
+- Threat monitoring
+- Incident response
+- Log analysis
+- Security monitoring
 
----
+### Example
+Monitoring suspicious login attempts inside system logs.
 
-### Become a Hacker
-#### Concept
-Introduction to ethical hacking and penetration testing concepts.
-
-#### Example
-Scanning a system for open ports using Nmap.
-
-#### Real-World Use Case
-Security professionals perform penetration tests to identify vulnerabilities before attackers do.
+### Real-World Use Cases
+- SOC monitoring
+- Threat detection
+- Security investigations
+- Incident handling
 
 ---
 
-### CIA Triad
-#### Concept
-The CIA Triad stands for:
+## 2. Become a Hacker
+
+Understanding ethical hacking and offensive security concepts.
+
+### Key Concepts
+- Ethical hacking
+- Penetration testing
+- Reconnaissance
+- Vulnerability scanning
+- Exploitation basics
+
+### Example
+Scanning a target system for open ports using Nmap.
+
+### Real-World Use Cases
+- Security testing
+- Vulnerability assessments
+- Red Team operations
+- Ethical hacking engagements
+
+---
+
+## 3. CIA Triad
+
+Understanding the core security model used in cybersecurity.
+
+### Key Concepts
 - Confidentiality
 - Integrity
 - Availability
 
-#### Example
+### Example
 Using passwords and encryption to protect sensitive data.
 
-#### Real-World Use Case
-Banks and hospitals use the CIA Triad to secure customer and patient information.
+### Real-World Use Cases
+- Banking security
+- Hospital data protection
+- Cloud security
+- Enterprise security policies
 
 ---
 
-### Cryptographic Concepts
-#### Concept
-Encryption and hashing are used to protect data and verify integrity.
+## 4. Cryptographic Concepts
 
-#### Example
+Learning how encryption and hashing protect data and communications.
+
+### Key Concepts
+- Encryption
+- Decryption
+- Hashing
+- Symmetric encryption
+- Asymmetric encryption
+
+### Example
 Hashing passwords before storing them in databases.
 
-#### Real-World Use Case
-Websites use HTTPS encryption to secure communication between users and servers.
+### Real-World Use Cases
+- HTTPS secure communication
+- Password protection
+- Digital signatures
+- Secure file storage
 
 ---
 
-## Skills Learned
-- Security fundamentals
+# Skills Learned
+
+- Cybersecurity fundamentals
 - Threat awareness
 - Defensive security concepts
 - Ethical hacking basics
+- Cryptography basics
+- Security analysis
+- Technical documentation
 
 ---
 
-## Conclusion
-These writeups helped me understand both offensive and defensive cybersecurity concepts and build a strong security foundation.
+# Why Attacks and Defenses Matter in Cybersecurity
+
+Understanding attacks and defenses is essential for:
+- Threat detection
+- Incident response
+- Penetration testing
+- Security monitoring
+- Risk management
+- Vulnerability assessment
+
+Cybersecurity professionals must understand both attacker techniques and defensive strategies to protect systems effectively.
+
+---
+
+# Tools & Technologies
+
+- TryHackMe
+- Kali Linux
+- Nmap
+- Wireshark
+- Security monitoring tools
+
+---
+
+# Repository Purpose
+
+This repository documents my cybersecurity learning journey through:
+- TryHackMe rooms
+- Security notes
+- Practical concepts
+- Hands-on labs
+- Attack and defense techniques
+
+The goal is to improve my understanding while building a structured cybersecurity knowledge base.
+
+---
+
+# Platform
+
+- TryHackMe
+- Linux / Kali Linux
+- GitHub
+
+---
+
+# Disclaimer
+
+These write-ups are created for educational purposes only.
+
+All activities are performed in legal and controlled lab environments provided by TryHackMe.
+
+---
+
+# Author
+
+Andrew D Souza
+
+Cybersecurity Learner | Networking | Linux | TryHackMe
