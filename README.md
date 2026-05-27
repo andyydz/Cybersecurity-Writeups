@@ -258,20 +258,20 @@ Every room and write-up improves both my technical understanding and documentati
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│   Goal: SOC Analyst                                         │
-│                                                             │
-│   Focus Areas:                                              │
-│   → Networking                                              │
-│   → Linux & Windows                                         │
-│   → Threat Detection                                        │
-│   → SOC Operations                                          │
-│   → Blue Team Concepts                                      │
-│                                                             │
-│   Current Mission:                                          │
-│   Build strong fundamentals before moving into              │
-│   advanced cybersecurity and SOC environments.              │
-│                                                             │
+│                                                                        │
+│   Goal: SOC Analyst                                                    │
+│                                                                        │
+│   Focus Areas:                                                         │
+│   → Networking                                                        │
+│   → Linux & Windows                                                   │
+│   → Threat Detection                                                  │
+│   → SOC Operations                                                    │
+│   → Blue Team Concepts                                                │
+│                                                                        │
+│   Current Mission:                                                     │
+│   Build strong fundamentals before moving into                       │
+│   advanced cybersecurity and SOC environments.                     │
+│                                                                        │
 └─────────────────────────────────────────────────────────────┘
 ```
 
