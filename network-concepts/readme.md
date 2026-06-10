@@ -197,6 +197,54 @@ Running Kali Linux inside VirtualBox.
 
 ---
 
+## 10. Networking Concepts
+
+Learning the core principles that allow devices to communicate across modern networks.
+
+### Key Concepts
+- OSI Model
+- TCP/IP Model
+- IP Addressing
+- Subnetting
+- TCP and UDP
+- Encapsulation
+- Telnet
+
+### Example
+A web request traveling through multiple layers of the OSI and TCP/IP models before reaching a web server.
+
+### Real-World Use Cases
+- Network troubleshooting
+- Protocol analysis
+- Packet inspection
+- Cybersecurity investigations
+- Enterprise networking
+
+---
+
+## 11. Networking Essentials
+
+Understanding the protocols and technologies that support everyday network communication.
+
+### Key Concepts
+- DHCP
+- ARP
+- ICMP
+- Routing
+- NAT
+
+### Example
+A device connecting to a Wi-Fi network, obtaining an IP address via DHCP, resolving MAC addresses using ARP, and accessing the internet through NAT.
+
+### Real-World Use Cases
+- Network administration
+- Connectivity troubleshooting
+- Security monitoring
+- Incident response
+- Network infrastructure management
+
+---
+
 # Skills Learned
 
 - Networking fundamentals
@@ -206,6 +254,13 @@ Running Kali Linux inside VirtualBox.
 - Virtualization basics
 - Technical documentation
 - Cybersecurity foundational skills
+- OSI and TCP/IP models
+- IP addressing and subnetting
+- TCP and UDP communication
+- Network troubleshooting
+- DHCP, ARP, and ICMP
+- Routing and NAT fundamentals
+- Protocol analysis
 
 ---
 
@@ -231,6 +286,12 @@ Most cyber attacks involve networks in some form, making networking one of the m
 - VirtualBox
 - Web browsers
 - Networking utilities
+- TCP/IP
+- DHCP
+- ARP
+- ICMP
+- Telnet
+- Network Diagnostic Tools
 
 ---
 
