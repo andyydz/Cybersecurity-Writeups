@@ -42,6 +42,7 @@ Learning how to interact with Linux using command-line commands.
 - Terminal operations
 
 ### Example
+
 ```bash
 ls
 cd
@@ -67,6 +68,7 @@ Understanding how Linux organizes and stores files.
 - Hidden files
 
 ### Example
+
 ```bash
 cd /home/user/Documents
 ```
@@ -89,6 +91,7 @@ Learning how Linux controls access to files and directories.
 - Users and groups
 
 ### Example
+
 ```bash
 chmod +x script.sh
 ```
@@ -111,6 +114,7 @@ Understanding how Linux manages users and running processes.
 - System monitoring
 
 ### Example
+
 ```bash
 whoami
 ps aux
@@ -134,6 +138,7 @@ Learning how software is installed and updated in Linux.
 - Updates
 
 ### Example
+
 ```bash
 sudo apt install nmap
 ```
@@ -145,6 +150,62 @@ sudo apt install nmap
 
 ---
 
+## 7. Linux Shells
+
+Learning how Linux shells provide an interface between users and the operating system.
+
+### Key Concepts
+- Linux shells
+- Bash shell
+- Shell interaction
+- Command execution
+- Shell environments
+
+### Example
+
+```bash
+pwd
+ls
+whoami
+```
+
+### Real-World Use Cases
+- System administration
+- Server management
+- Security operations
+- Remote access
+
+---
+
+## 8. Shell Scripting
+
+Understanding how shell scripts can automate tasks and improve efficiency.
+
+### Key Concepts
+- Variables
+- User input
+- Conditional statements
+- Loops
+- Script execution
+
+### Example
+
+```bash
+#!/bin/bash
+
+name="Andrew"
+echo "Hello $name"
+```
+
+### Real-World Use Cases
+- Automation
+- Log management
+- Security monitoring
+- Administrative tasks
+- System maintenance
+
+---
+
 # Skills Learned
 
 - Linux command-line usage
@@ -153,6 +214,10 @@ sudo apt install nmap
 - System administration basics
 - Technical troubleshooting
 - Cybersecurity foundational skills
+- Linux shell fundamentals
+- Bash scripting basics
+- Task automation
+- Shell navigation
 
 ---
 
@@ -177,6 +242,9 @@ Most cybersecurity tools and servers run on Linux systems.
 - VirtualBox
 - Linux Terminal
 - Basic Linux utilities
+- Bash
+- Linux Shell
+- Shell Scripts
 
 ---
 
