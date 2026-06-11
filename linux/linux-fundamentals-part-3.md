@@ -151,6 +151,8 @@ Logs help administrators and security analysts:
 - Investigate suspicious behavior
 - Detect security incidents
 
+ ![System Services](screenshorts/linux-system-services.png)
+
 ---
 
 # Access Services & System Administration
@@ -166,6 +168,8 @@ This room introduced administrative concepts related to maintaining Linux enviro
 - Log management
 
 These services are essential in enterprise system administration and cybersecurity operations.
+
+![System Update](screenshorts/linux-system-update.png)
 
 ---
 
