@@ -105,6 +105,7 @@ ps
 top
 kill
 ```
+![Process Monitor](screenshorts/linux-process-monitor.png)
 
 These commands help users:
 - Monitor running processes
@@ -125,6 +126,7 @@ Package managers help install, update, and manage software on Linux systems.
 sudo apt update
 sudo apt install
 ```
+![Package Management](screenshorts/linux-package-management.png)
 
 Package management is essential for:
 - Installing software
