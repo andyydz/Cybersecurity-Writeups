@@ -5,7 +5,7 @@
 > **Key finding:** Never assume protocol content without reading the full response body. Packet 12 was a deliberate decoy. The real answer was buried much later in the capture.
 
 ---
-
+ 
 ## Overview
 
 Wireshark is a network protocol analyzer used by SOC analysts to capture and analyze network traffic in real time. This writeup documents my hands-on investigation from completing TryHackMe's **Wireshark: The Basics** room, including the mistakes I made, what I found, and why it matters in a real SOC context.
