@@ -123,18 +123,6 @@ UDP doesn't have a built-in response mechanism like TCP, so Nmap has to wait for
 
 ---
 
-## Screenshots
-
-### Completion
-
-
-### OpenVPN Connection
-
-
-![OpenVPN](screenshots/openvpn-connection.png)
-
-
-
 ---
 
 ## Tools Used
