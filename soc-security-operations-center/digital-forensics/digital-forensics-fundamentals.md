@@ -15,7 +15,7 @@
 
 This room covers the foundations of digital forensics: how investigations connect to law enforcement after a cybercrime, the standard forensic methodology, the different forensic specialties, evidence handling procedures, and core Windows forensic tools. It ends with a hands-on investigation — recovering metadata from a PDF and an image to track down a missing cat.
 
-🔗 Room link: [TryHackMe — Digital Forensics Fundamentals](https://tryhackme.com/room/digital-forensics-fundamentals)
+
 
 ## What I Actually Found
 
