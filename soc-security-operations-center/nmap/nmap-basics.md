@@ -3,17 +3,8 @@
 
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
- 
-
 ![Platform](https://img.shields.io/badge/Platform-TryHackMe-red)
-
- 
-
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue)
-
- 
-
 ![Category](https://img.shields.io/badge/Category-Network%20Reconnaissance-orange)
 
 
@@ -92,7 +83,8 @@ UDP doesn't have a built-in response mechanism like TCP, so Nmap has to wait for
 - Located the exact target IP address by scanning the provided subnet range
 - Identified open TCP ports using both Connect scan (`-sT`) and SYN scan (`-sS`)
 - Detected the web server name and version running on the target using `-sV`
-- Ran a UDP scan (`-sU`) and observed the difference in speed compared to TCP
+- Ran a UDP scan (`-sU`) and observed the difference in speed co
+- mpared to TCP
 - Successfully captured the room flag after completing full port enumeration
 - Worked around a broken AttackBox by connecting via OpenVPN directly from my local machine
 - Saved Nmap output using `-oN` for documentation
