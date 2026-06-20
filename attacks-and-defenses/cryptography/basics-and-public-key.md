@@ -3,17 +3,8 @@
 
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
- 
-
 ![Platform](https://img.shields.io/badge/Platform-TryHackMe-red)
-
- 
-
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy--Medium-yellow)
-
- 
-
 ![Category](https://img.shields.io/badge/Category-Cryptography-purple)
 
 
@@ -102,7 +93,7 @@ I assumed certificates were only a browser thing. But they're used in email sign
 
 ---
 
-## 💡 What I Learned
+##  What I Learned
 
 - RSA isn't complicated once you see the math — two large primes, multiply them, and factoring that product is what makes it secure
 - Diffie-Hellman solves a real problem elegantly — two people agreeing on a secret without ever sending the secret itself
