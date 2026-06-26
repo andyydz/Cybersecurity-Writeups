@@ -3,17 +3,8 @@
 
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
- 
-
 ![Platform](https://img.shields.io/badge/Platform-TryHackMe-red)
-
- 
-
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue)
-
- 
-
 ![Category](https://img.shields.io/badge/Category-Network%20Analysis-orange)
 
 
