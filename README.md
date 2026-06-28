@@ -3,331 +3,238 @@
 <img src="https://tryhackme-badges.s3.amazonaws.com/andyydz57.png" alt="TryHackMe Badge" />
 
 <br/>
+<br/>
 
-# CYBERSECURITY LEARNING JOURNAL
-## TryHackMe Write-ups & Notes
+```
+█████╗ ███╗   ██╗██████╗ ██╗   ██╗██╗   ██╗
+██╔══██╗████╗  ██║██╔══██╗╚██╗ ██╔╝╚██╗ ██╔╝
+███████║██╔██╗ ██║██║  ██║ ╚████╔╝  ╚████╔╝ 
+██╔══██║██║╚██╗██║██║  ██║  ╚██╔╝    ╚██╔╝  
+██║  ██║██║ ╚████║██████╔╝   ██║      ██║   
+╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝    ╚═╝      ╚═╝  
+```
 
-*Documenting the grind — one room at a time.*
+### `SOC Analyst in Training` · `Blue Team` · `TryHackMe Top 8%`
 
 <br/>
 
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-andyydz57-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/andyydz57)
-[![SOC Path](https://img.shields.io/badge/Goal-SOC%20Analyst-blue?style=for-the-badge)](https://tryhackme.com/p/andyydz57)
-[![Write-ups](https://img.shields.io/badge/Writeups-Updated-success?style=for-the-badge)](https://github.com/)
-[![Learning](https://img.shields.io/badge/Focus-Cybersecurity-red?style=for-the-badge)](https://github.com/)
+[![Rank](https://img.shields.io/badge/Global_Rank-Top_8%25-FF6B35?style=for-the-badge&logo=target&logoColor=white)](https://tryhackme.com/p/andyydz57)
+[![Rooms](https://img.shields.io/badge/Rooms_Completed-61+-22C55E?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/andyydz/TryHackMe-Writeups)
+[![SOC](https://img.shields.io/badge/Path-SOC_Level_1-3B82F6?style=for-the-badge&logo=shield&logoColor=white)](https://tryhackme.com/p/andyydz57)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-vinston-d-souza-41699330a/)
 
 </div>
 
 ---
-
-# whoami
-
-I'm Andrew | a BCA student building toward a SOC Analyst role through hands-on cybersecurity labs, networking fundamentals, operating systems, and practical TryHackMe rooms.
-
-This repository is my cybersecurity learning journal where I document:
-- Concepts I learn
-- Practical labs
-- Write-ups and notes
-- Real-world cybersecurity topics
-- Linux, Windows, Networking, and SOC fundamentals
-
-The goal is simple:
-
-> Learn by doing.  
-> Understand systems deeply.  
-> Build real-world cybersecurity skills step by step.
-
----
-
-# Current Focus Areas
-
-- SOC Fundamentals
-- Networking Concepts
-- Linux & Windows Administration
-- Threat Detection & Monitoring
-- Active Directory Basics
-- OS Security Concepts
-- Technical Documentation
-- Cybersecurity Fundamentals
-
----
-
-#  Completed Rooms
-
-| Room Name | Category | Difficulty | Date |
-|-----------|----------|------------|------|
-| Linux Fundamentals Part 1 | Linux | Easy | May 2026 |
-| Linux Fundamentals Part 2 | Linux | Easy | May 2026 |
-| Linux Fundamentals Part 3 | Linux | Easy | May 2026 |
-| Linux CLI Basics | Linux | Easy | May 2026 |
-| Linux Shell | Linux | Easy | May 2026 |
-| Windows Fundamentals 1 | Windows | Easy | May 2026 |
-| Windows Fundamentals 2 | Windows | Easy | May 2026 |
-| Windows CLI Basics | Windows | Easy | May 2026 |
-| Windows Command Line | Windows | Easy | May 2026 |
-| Active Directory Basics | Windows | Easy | May 2026 |
-| How Websites Work | Networking | Easy | May 2026 |
-| DNS in Detail | Networking | Easy | May 2026 |
-| HTTP in Detail | Networking | Easy | May 2026 |
-| Intro to LAN | Networking | Easy | May 2026 |
-| OSI Model | Networking | Easy | May 2026 |
-| Networking Core Protocols | Networking | Easy | May 2026 |
-| Networking Secure Protocols | Networking | Easy | May 2026 |
-| Defensive Security Intro | SOC/Blue Team | Easy | May 2026 |
-| Operating System Security | SOC/Blue Team | Easy | May 2026 |
-| Become a Defender | SOC/Blue Team | Easy | May 2026 |
-
----
-
-# Repository Structure
-
-```text
-📁 tryhackme-writeups/
-│
-├── 📁 attacks-and-defenses/
-│   ├── CIA Triad
-│   ├── Become a Defender
-│   ├── Become a Hacker
-│   └── Cryptographic Concepts
-│
-├── 📁 os-basics/
-│   ├── OS Introduction
-│   ├── OS Basics
-│   └── OS Security
-│
-├── 📁 linux/
-│   ├── Linux CLI Basics
-│   ├── Linux Fundamentals
-│   ├── Linux Permissions
-│   └── Package Management
-│
-├── 📁 windows/
-│   ├── Windows Fundamentals
-│   ├── CMD Basics
-│   ├── PowerShell
-│   └── Active Directory Basics
-│
-├── 📁 network-concepts/
-│   ├── OSI Model
-│   ├── DNS
-│   ├── HTTP
-│   ├── Packets & Frames
-│   ├── LAN
-│   └── Virtualisation Basics
-│
-├── 📁 software-basics/
-│   ├── Data Representation
-│   ├── Data Encoding
-│   ├── SQL Basics
-│   ├── Python Basics
-│   └── JavaScript Basics
-│
-└── 📁 soc/
-    ├── Log Analysis
-    ├── SIEM Basics
-    ├── Incident Response
-    └── Threat Detection
-```
-
----
-
-# Technical Areas
-
-<details>
-<summary><b>Linux</b></summary>
-
-<br/>
-
-- Linux Fundamentals & CLI Navigation
-- File Permissions and Ownership
-- User & Process Management
-- Package Management
-- Basic Linux Administration
-- Shell & Terminal Usage
-
-</details>
-
-<details>
-<summary><b>Windows</b></summary>
-
-<br/>
-
-- Windows Fundamentals
-- CMD & PowerShell Commands
-- Windows Filesystem
-- Active Directory Basics
-- Windows Security Concepts
-- User & Permission Management
-
-</details>
-
-<details>
-<summary><b>Networking</b></summary>
-
-<br/>
-
-- OSI Model & TCP/IP
-- DNS & HTTP
-- Packets and Frames
-- LAN & WAN Concepts
-- Ports & Protocols
-- Virtualisation Basics
-- Routing & Network Communication
-
-</details>
-
-<details>
-<summary><b>Software Basics</b></summary>
-
-<br/>
-
-- Python Basics
-- JavaScript Basics
-- SQL Fundamentals
-- Data Representation
-- Data Encoding
-- Scripting Concepts
-
-</details>
-
-<details>
-<summary><b>Cybersecurity</b></summary>
-
-<br/>
-
-- CIA Triad
-- Cryptographic Concepts
-- Offensive Security Basics
-- Defensive Security Basics
-- Threat Monitoring
-- Security Fundamentals
-
-</details>
-
-<details>
-<summary><b>SOC & Blue Team</b></summary>
-
-<br/>
-
-- SOC Fundamentals
-- Log Analysis
-- SIEM Basics
-- Incident Response
-- Threat Detection
-- Blue Team Operations
-
-</details>
-
----
-
-# Example Commands & Tools
-
 ```bash
-# Connectivity test
-ping 8.8.8.8
+┌──(andyy㉿kali)-[~/TryHackMe-Writeups]
+└─$ whoami
 
-# Network configuration
-ipconfig /all
+  Andrew D Souza     | Final-year BCA Student
 
-# Active network connections
-netstat -ano
-
-# Linux file permissions
-chmod +x script.sh
-
-# View current user
-whoami
+→ Target Role        : SOC Analyst L1
+→ Focus              : Blue Team · Threat Detection · Incident Response
+→ Currently on       : THM SOC Level 1 + Google Cybersecurity Certificate
+→ End Goal           : Cloud Security Engineer
 ```
+---
+
+##  What This Repository Is
+
+This is my **structured cybersecurity learning journal** — every room I complete on TryHackMe gets documented here as a write-up.
+
+Not just *what I did*, but **why it matters in a real SOC environment**.
+
+Each write-up follows a consistent format:
+-  Key findings
+-  Hands-on activities
+-  SOC Analyst relevance table
+-  Key takeaways
+
+> *"If you can't explain it simply, you don't understand it well enough."*
 
 ---
 
-# Skills Being Built
-
-- Networking Fundamentals
-- Operating System Security
-- Linux & Windows Administration
-- Threat Detection
-- SOC Operations Awareness
-- Security Monitoring
-- Technical Documentation
-- Problem Solving
-- Cybersecurity Foundations
-
----
-
-# Why This Repository Exists
-
-This repository helps me:
-- Track my cybersecurity progress
-- Practice technical documentation
-- Build hands-on experience
-- Create structured notes for revision
-- Develop practical cybersecurity skills
-
-Every room and write-up improves both my technical understanding and documentation skills.
-
----
-
-# Platforms & Technologies
-
-- TryHackMe
-- Kali Linux
-- Windows
-- VirtualBox
-- Git & GitHub
-- Wireshark
-- PowerShell
-- Linux Terminal
-
----
-
-# Objective
-
-```text
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│   Goal: SOC Analyst                                         │
-│                                                             │
-│   Focus Areas:                                              │
-│   → Networking                                              │
-│   → Linux & Windows                                         │
-│   → Threat Detection                                        │
-│   → SOC Operations                                          │
-│   → Blue Team Concepts                                      │
-│                                                             │
-│   Current Mission:                                          │
-│   Build strong fundamentals before moving into              │
-│   advanced cybersecurity and SOC environments.              │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
----
-
-# Find Me
+##  Stats
 
 <div align="center">
 
-[![TryHackMe Profile](https://img.shields.io/badge/TryHackMe_Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/andyydz57)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Andrew%20Vinston%20D%27Souza-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-vinston-d-souza-41699330a/)
+| Metric | Value |
+|--------|-------|
+|  Global Rank | Top 8% (~171,554) |
+|  Title | [0x8][HACKER] |
+|  Badges | 7 |
+|  Active Streak | 16+ days |
+|  Rooms Completed | 61+ |
+|  Write-ups | Actively updated |
+
+</div>
+
+---
+
+##  Repository Structure
+
+```text
+TryHackMe-Writeups/
+│
+├──  README.md
+├──  attacks-and-defenses/
+├──  computer-fundamentals/
+├──  cybersecurity/
+├──  linux/
+│   ├── linux-fundamentals/
+│   ├── linux-shell/
+│   └── linux-permissions/
+├──  network-concepts/
+│   ├── dns/
+│   ├── tcp-ip/
+│   └── http/
+├──  windows/
+│   ├── windows-fundamentals/
+│   ├── powershell/
+│   └── active-directory/
+├──  software-basics/
+└──  soc-security-operations-center/
+    ├──  digital-forensics/
+    ├──  incident-response/
+    ├──  logs/
+    ├──  nmap/
+    ├──  siem/
+    ├──  tcpdump/
+    └──  wireshark/
+```
+
+---
+
+##  Completed Rooms
+
+###  SOC & Blue Team
+| Room | Difficulty | Date | Write-up |
+|------|------------|------|----------|
+| SOC Fundamentals | Easy | Jun 2026 | ✅ |
+| Security Principles | Easy | Jun 2026 | ✅ |
+| Log Fundamentals | Easy | Jun 2026 | ✅ |
+| Incident Response | Easy | Jun 2026 | ✅ |
+| Digital Forensics | Easy | Jun 2026 | ✅ |
+| SIEM Basics | Easy | Jun 2026 | ✅ |
+| Defensive Security Intro | Easy | May 2026 | ✅ |
+| Operating System Security | Easy | May 2026 | ✅ |
+| Become a Defender | Easy | May 2026 | ✅ |
+
+###  Network Traffic Analysis
+| Room | Difficulty | Date | Write-up |
+|------|------------|------|----------|
+| Wireshark | Easy | Jun 2026 | ✅ |
+| TCPdump | Easy | Jun 2026 | ✅ |
+| Nmap | Easy | Jun 2026 | ✅ |
+
+###  Networking
+| Room | Difficulty | Date | Write-up |
+|------|------------|------|----------|
+| OSI Model | Easy | May 2026 | ✅ |
+| Intro to LAN | Easy | May 2026 | ✅ |
+| DNS in Detail | Easy | May 2026 | ✅ |
+| HTTP in Detail | Easy | May 2026 | ✅ |
+| Networking Core Protocols | Easy | May 2026 | ✅ |
+| Networking Secure Protocols | Easy | May 2026 | ✅ |
+| How Websites Work | Easy | May 2026 | ✅ |
+
+###  Cryptography & Attacks
+| Room | Difficulty | Date | Write-up |
+|------|------------|------|----------|
+| Hashing Basics | Easy | Jun 2026 | ✅ |
+| Cryptographic Concepts | Easy | Jun 2026 | ✅ |
+| Hydra | Easy | Jun 2026 | ✅ |
+
+###  Web Security
+| Room | Difficulty | Date | Write-up |
+|------|------------|------|----------|
+| Web Application Basics | Easy | Jun 2026 | ✅ |
+| JavaScript Essentials | Easy | Jun 2026 | ✅ |
+
+###  Linux
+| Room | Difficulty | Date | Write-up |
+|------|------------|------|----------|
+| Linux Fundamentals Part 1 | Easy | May 2026 | ✅ |
+| Linux Fundamentals Part 2 | Easy | May 2026 | ✅ |
+| Linux Fundamentals Part 3 | Easy | May 2026 | ✅ |
+| Linux CLI Basics | Easy | May 2026 | ✅ |
+| Linux Shell | Easy | May 2026 | ✅ |
+
+###  Windows
+| Room | Difficulty | Date | Write-up |
+|------|------------|------|----------|
+| Windows Fundamentals 1 | Easy | May 2026 | ✅ |
+| Windows Fundamentals 2 | Easy | May 2026 | ✅ |
+| Windows CLI Basics | Easy | May 2026 | ✅ |
+| Windows Command Line | Easy | May 2026 | ✅ |
+| Active Directory Basics | Easy | May 2026 | ✅ |
+
+---
+
+##  SOC Skills Map
+
+```
+SKILL                    TOOLS & CONCEPTS COVERED
+─────────────────────────────────────────────────────────
+Log Analysis         →   Log Fundamentals, SIEM, Splunk
+Network Analysis     →   Wireshark, TCPdump, Nmap
+Threat Detection     →   SIEM, Alert Triage, IR
+Digital Forensics    →   Evidence Handling, Autopsy
+Cryptography         →   Hashing (MD5/SHA), Hydra
+Web Security         →   HTTP, JS, Web App Vulnerabilities
+OS Hardening         →   Linux, Windows, Active Directory
+Incident Response    →   IR Lifecycle, Containment, Recovery
+```
+
+---
+
+##  Tools & Platforms
+
+<div align="center">
+
+
+
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-004170?style=for-the-badge&logo=nmap&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
+![Cisco](https://img.shields.io/badge/Cisco_Packet_Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+
 
 
 </div>
 
 ---
 
-# Disclaimer
+##  Disclaimer
 
-These write-ups are created for educational purposes only.
-
-All activities are performed inside legal and controlled lab environments provided by TryHackMe.
+All write-ups are created for **educational purposes only**.
+All activities are performed inside **legal, controlled lab environments** provided by TryHackMe.
+No real systems were targeted. Always hack ethically. 
 
 ---
 
 <div align="center">
 
-### Andrew D Souza
+```
+╔══════════════════════════════════════════════════════╗
+║           BUILT IN PUBLIC. LEARNING OUT LOUD.        ║
+║                                                      ║
+║   Every commit is a step closer to the SOC floor.    ║
+╚══════════════════════════════════════════════════════╝
+```
 
-Cybersecurity Learner | SOC | Networking | Linux | TryHackMe
+**Andrew D'Souza (Andyy)**
+
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-andyydz57-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/andyydz57)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Andrew_Vinston_D'Souza-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-vinston-d-souza-41699330a/)
+[![GitHub](https://img.shields.io/badge/GitHub-andyydz-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/andyydz)
 
 </div>
