@@ -14,7 +14,7 @@
 ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝    ╚═╝      ╚═╝  
 ```
 
-### `SOC Analyst in Training` · `Blue Team` · `TryHackMe Top 8%`
+### `SOC Analyst in Training` · `Blue Team` · `TryHackMe Top 6%`
 
 <br/>
 
