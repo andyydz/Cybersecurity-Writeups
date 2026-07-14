@@ -39,7 +39,7 @@ hydra/
 
 ---
 
-## ⚡ Commands Used
+##  Commands Used
 
 **HTTP POST Form:**
 ```bash
@@ -64,6 +64,3 @@ hydra -l molly -P /usr/share/wordlists/rockyou.txt 10.10.x.x -t 4 ssh
 
 ---
 
-##  Back to Attacks and Defenses Folder
-
-[Attacks and Defenses](../readme.md)
