@@ -10,6 +10,7 @@ Defensive security is an essential area of cybersecurity because it focuses on p
 ---
 
 # Topics Covered
+
 - What is Defensive Security
 - Understanding Your Environment
 - Defending Your Environment
