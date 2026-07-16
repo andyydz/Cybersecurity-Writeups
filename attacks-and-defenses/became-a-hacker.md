@@ -1,5 +1,6 @@
 # Become a Hacker - TryHackMe Write-up
 
+
 ## Overview
 This room introduced the fundamentals of offensive security and explained how ethical hackers identify, analyze, and exploit weaknesses in systems to improve security defenses.
 
