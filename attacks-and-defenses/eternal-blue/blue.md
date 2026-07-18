@@ -3,7 +3,9 @@
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
 ![Category](https://img.shields.io/badge/Category-Exploitation%20Basics-blue)
 
-> **Key Finding:** "Blue" walks through the classic EternalBlue (MS17-010) SMB exploitation chain end-to-end — from initial port recon to gaining a shell, dumping and cracking password hashes with John the Ripper, and capturing flags across the compromised host.
+
+
+>  **Key Finding:** "Blue" walks through the classic EternalBlue (MS17-010) SMB exploitation chain end-to-end — from initial port recon to gaining a shell, dumping and cracking password hashes with John the Ripper, and capturing flags across the compromised host.
 
 ## Overview
 
@@ -61,4 +63,4 @@ Searched the compromised filesystem for flags planted throughout the challenge, 
 - SMB hardening (patching, disabling SMBv1) is a simple, high-impact control directly tied to this entire attack class.
 
 ---
-More writeups: [github.com/andyydz/TryHackMe-Writeups](https://github.com/andyydz/TryHackMe-Writeups)
+ More writeups: [github.com/andyydz/TryHackMe-Writeups](https://github.com/andyydz/TryHackMe-Writeups)
