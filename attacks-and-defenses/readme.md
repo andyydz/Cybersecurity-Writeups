@@ -1,168 +1,49 @@
 # Attacks and Defenses
 
-This folder contains my notes and write-ups from attack and defense-related rooms and modules completed on [TryHackMe](https://tryhackme.com/p/andyydz57).
-
-The purpose of these write-ups is to build a strong understanding of cybersecurity fundamentals, threat detection, offensive security concepts, and defensive security practices used in real-world environments.
-
-Attacks and defense concepts are essential foundations for cybersecurity, SOC operations, ethical hacking, and incident response.
+This folder contains my notes and write-ups from attack and defense-related rooms and modules completed on TryHackMe, aimed at building a strong understanding of cybersecurity fundamentals, threat detection, offensive techniques, and the defensive mindset needed to counter them.
 
 ---
 
-# Topics Covered
+## Contents
 
-## 1. Become a Defender
+###  cryptography/
+Core cryptographic concepts — symmetric vs. asymmetric encryption, RSA, Diffie-Hellman key exchange, digital signatures, certificates, hashing, and PGP/GPG.
+- `basics-and-public-key.md`
+- `cryptographic-concepts.md`
+- `hashing-basic.md`
 
-Introduction to defensive security and SOC-related concepts.
+###  eternal-blue/
+Full offensive lifecycle walkthrough of the classic EternalBlue (MS17-010) SMB exploitation chain — recon, exploitation, credential harvesting, privilege escalation, and hash cracking with John the Ripper.
+- `blue.md`
 
-### Key Concepts
-- Blue Team operations
-- Threat monitoring
-- Incident response
-- Log analysis
-- Security monitoring
+###  exploitation-basics/
+Foundational exploitation concepts — a real-world CVE walkthrough and the core shell types used in post-exploitation.
+- `moniker-link (CVE-2024-21413).md`
+- `shells-overview.md`
 
-### Example
-Monitoring suspicious login attempts inside system logs.
+###  metasploit/
+Metasploit Framework series covering the fundamentals of the tool through to active exploitation and post-exploitation with Meterpreter.
+- `metasploit-introduction.md`
+- `metasploit-exploitation.md`
+- `metasploit-meterpreter.md`
 
-### Real-World Use Cases
-- SOC monitoring
-- Threat detection
-- Security investigations
-- Incident handling
+###  password-attacks/hydra/
+Password attack techniques using Hydra for brute-forcing and credential attacks against various services.
 
----
+###  became-a-hacker.md
+Notes on offensive security mindset and the attacker's perspective — how threat actors think and operate.
 
-## 2. Become a Hacker
+###  become-a-defender.md
+Notes on the defensive counterpart — blue team mindset and how defenders detect and respond to the techniques covered on the offensive side.
 
-Understanding ethical hacking and offensive security concepts.
-
-### Key Concepts
-- Ethical hacking
-- Penetration testing
-- Reconnaissance
-- Vulnerability scanning
-- Exploitation basics
-
-### Example
-Scanning a target system for open ports using Nmap.
-
-### Real-World Use Cases
-- Security testing
-- Vulnerability assessments
-- Red Team operations
-- Ethical hacking engagements
+###  cia-triad.md
+Core security principles — Confidentiality, Integrity, and Availability — and how they underpin every attack and defense concept in this repository.
 
 ---
 
-## 3. CIA Triad
+## Why This Structure
 
-Understanding the core security model used in cybersecurity.
-
-### Key Concepts
-- Confidentiality
-- Integrity
-- Availability
-
-### Example
-Using passwords and encryption to protect sensitive data.
-
-### Real-World Use Cases
-- Banking security
-- Hospital data protection
-- Cloud security
-- Enterprise security policies
+Each subfolder groups write-ups by technique or tool so related concepts stay together — cryptography concepts in one place, exploitation techniques in another, and so on — while root-level files cover foundational, cross-cutting concepts (mindset, CIA triad) that apply across every room in this folder.
 
 ---
-
-## 4. Cryptographic Concepts
-
-Learning how encryption and hashing protect data and communications.
-
-### Key Concepts
-- Encryption
-- Decryption
-- Hashing
-- Symmetric encryption
-- Asymmetric encryption
-
-### Example
-Hashing passwords before storing them in databases.
-
-### Real-World Use Cases
-- HTTPS secure communication
-- Password protection
-- Digital signatures
-- Secure file storage
-
----
-
-# Skills Learned
-
-- Cybersecurity fundamentals
-- Threat awareness
-- Defensive security concepts
-- Ethical hacking basics
-- Cryptography basics
-- Security analysis
-- Technical documentation
-
----
-
-# Why Attacks and Defenses Matter in Cybersecurity
-
-Understanding attacks and defenses is essential for:
-- Threat detection
-- Incident response
-- Penetration testing
-- Security monitoring
-- Risk management
-- Vulnerability assessment
-
-Cybersecurity professionals must understand both attacker techniques and defensive strategies to protect systems effectively.
-
----
-
-# Tools & Technologies
-
-- TryHackMe
-- Kali Linux
-- Nmap
-- Wireshark
-- Security monitoring tools
-
----
-
-# Repository Purpose
-
-This repository documents my cybersecurity learning journey through:
-- TryHackMe rooms
-- Security notes
-- Practical concepts
-- Hands-on labs
-- Attack and defense techniques
-
-The goal is to improve my understanding while building a structured cybersecurity knowledge base.
-
----
-
-# Platform
-
-- TryHackMe
-- Linux / Kali Linux
-- GitHub
-
----
-
-# Disclaimer
-
-These write-ups are created for educational purposes only.
-
-All activities are performed in legal and controlled lab environments provided by TryHackMe.
-
----
-
-# Author
-
-Andrew D Souza
-
-Cybersecurity Learner | Networking | Linux | TryHackMe
+More writeups: [github.com/andyydz/TryHackMe-Writeups](https://github.com/andyydz/TryHackMe-Writeups)
