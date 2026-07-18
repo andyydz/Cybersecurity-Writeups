@@ -12,7 +12,7 @@ Burp Suite sits between the browser and the target web application as a proxy, l
 
 ## Writeup
 
-📄 `burp-suite-the-basics.md` — Covers the fundamentals of setting up Burp Suite's proxy, intercepting traffic, and using its core tabs (Proxy, Repeater, Intruder) to analyze and manipulate web requests.
+ `burp-suite-the-basics.md` — Covers the fundamentals of setting up Burp Suite's proxy, intercepting traffic, and using its core tabs (Proxy, Repeater, Intruder) to analyze and manipulate web requests.
 
 ## SOC Analyst Relevance
 
