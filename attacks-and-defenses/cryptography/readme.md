@@ -1,13 +1,9 @@
 # Cryptography
 
-
-
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Platform](https://img.shields.io/badge/Platform-TryHackMe-red)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy--Medium-yellow)
 ![Category](https://img.shields.io/badge/Category-Cryptography-purple)
-
-
 
 > **Key finding:** RSA isn't magic — it's math. Once you understand that its security is based entirely on how hard it is to factor large prime numbers, everything else (certificates, HTTPS, SSH keys) starts to make sense.
 
@@ -79,7 +75,7 @@ I assumed certificates were only a browser thing. But they're used in email sign
 
 ---
 
-##  Key Findings & Tasks
+## Key Findings & Tasks
 
 - Traced the full journey from plaintext to ciphertext using historical cipher examples
 - Identified the core difference between symmetric and asymmetric encryption and when each is used
@@ -93,7 +89,7 @@ I assumed certificates were only a browser thing. But they're used in email sign
 
 ---
 
-##  What I Learned
+## What I Learned
 
 - RSA isn't complicated once you see the math — two large primes, multiply them, and factoring that product is what makes it secure
 - Diffie-Hellman solves a real problem elegantly — two people agreeing on a secret without ever sending the secret itself
@@ -125,3 +121,4 @@ ssh-keygen -t rsa -b 4096
 
 # View certificate details
 openssl x509 -in cert.pem -text -noout
+```
