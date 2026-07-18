@@ -4,39 +4,23 @@ This folder contains my cybersecurity-related TryHackMe write-ups, notes, and be
 
 While working through these rooms, I learned the fundamentals of cybersecurity, including offensive security, defensive security, threat monitoring, and different cybersecurity career paths. These rooms helped me understand how attackers think, how organizations defend systems, and how cybersecurity teams respond to threats.
 
-I’m using these write-ups to document my learning journey, improve my practical understanding, and build a professional cybersecurity portfolio on GitHub.
+I'm using these write-ups to document my learning journey, improve my practical understanding, and build a professional cybersecurity portfolio on GitHub.
 
 ---
 
 ## Topics Covered
 
-### Introduction to Cybersecurity
-- Cybersecurity fundamentals
-- Importance of cybersecurity
-- Basic security concepts
-- Real-world cyber threats
+### 1. Cybersecurity Basics
+An introduction to the core concepts of cybersecurity — what it is, why it matters, and the broad categories of threats it defends against.
+ `cyber-security-basics.md`
 
-### Cyber Security Basics
-- Offensive security introduction
-- Defensive security introduction
-- Ethical hacking basics
-- Threat detection and monitoring
-- Cybersecurity career paths
+### 2. Introduction to Cybersecurity
+Foundational overview of the cybersecurity field — offensive vs. defensive security, common roles, and different career paths within the industry.
+ `intro-cybersecurity.md`
 
----
-
-## Skills Practiced
-
-- Understanding cyber attacks and defenses
-- Learning attacker and defender perspectives
-- Introduction to SOC operations
-- Basic threat awareness
-- Cybersecurity fundamentals and terminology
+### 3. Security Principles
+Core principles that underpin all security work, forming the mental model used throughout every other room in this repository.
+ `security-principles.md`
 
 ---
-
-## Goal
-
-My goal is to build strong cybersecurity fundamentals through hands-on learning and practical labs while developing a professional cybersecurity portfolio on GitHub.
-
-More cybersecurity write-ups and labs will be added as I continue learning.
+More writeups: [github.com/andyydz/TryHackMe-Writeups](https://github.com/andyydz/TryHackMe-Writeups)
