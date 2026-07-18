@@ -1,4 +1,4 @@
-#  SOC - Security Operations Center
+# SOC - Security Operations Center
 
 This folder contains my writeups and notes from SOC-related rooms completed on [TryHackMe](https://tryhackme.com/p/andyydz57) — documenting my hands-on journey toward becoming a SOC Analyst.
 
@@ -6,22 +6,30 @@ SOC operations are one of the most important areas in cybersecurity because they
 
 ---
 
-##  Folder Structure
+## Folder Structure
 
-| Folder | Room | Category |
+| Folder | Room(s) | Category |
 |---|---|---|
+| `blue-team-fundamental` | Blue Team Fundamentals | Defensive Security |
 | `digital-forensics` | Digital Forensics Fundamentals | Forensics |
+| `edr` | Introduction to EDR | Endpoint Security |
+| `ids` | IDS Fundamentals (Snort) | Network Detection |
 | `incident-response` | Incident Response Fundamentals | Incident Response |
 | `log` | Log Fundamentals | Log Analysis |
 | `nmap` | Nmap Basics | Network Recon |
 | `ping` | Ping Basics | Network Fundamentals |
 | `siem` | Introduction to SIEM | Security Operations |
+| `soc-level-1` | SOC L1 Alert Triage, Alert Reporting, Workbook & Lookup | SOC Analyst Workflow |
+| `splunk` | Splunk: The Basics | SIEM Tooling |
 | `tcpdump` | TCPdump | Network Analysis |
-| `wireshark` | Wireshark | Network Analysis |
+| `vulnerability-scanning` | Vulnerability Scanner Overview | Vulnerability Management |
+| `wireshark` | Wireshark: The Basics | Network Analysis |
+
+Root-level files: `soc-fundamentals.md` (SOC Fundamentals overview)
 
 ---
 
-##  Topics Covered
+## Topics Covered
 
 ### 1. SOC Fundamentals
 Introduction to Security Operations Center concepts and responsibilities.
@@ -34,7 +42,7 @@ Learning how security logs are used to detect suspicious activities.
 - Example: Reviewing failed login attempts in Windows Event Viewer
 
 ### 3. SIEM Basics
-Introduction to Security Information and Event Management systems.
+Introduction to Security Information and Event Management systems, including hands-on practice with Splunk.
 - SIEM tools, event collection, correlation rules, security alerts, dashboards
 - Example: Using Splunk to search for failed login events
 
@@ -49,30 +57,42 @@ Learning how threat intelligence helps identify and track attackers.
 - Example: Blocking malicious IPs identified through threat intelligence feeds
 
 ### 6. Endpoint Security
-Understanding how endpoints are monitored and protected.
-- Endpoint detection, antivirus, EDR solutions, device monitoring
+Understanding how endpoints are monitored and protected, including EDR solutions and detection capabilities.
+- Endpoint detection, antivirus, EDR solutions, device monitoring, EDR telemetry
 - Example: Detecting suspicious PowerShell activity on a workstation
+
+### 7. Network Detection
+Understanding intrusion detection systems and network-based threat detection.
+- IDS/IPS concepts, Snort rules, network traffic monitoring
+- Example: Writing a Snort rule to detect a specific attack pattern
+
+### 8. SOC Analyst Workflow (L1)
+Practical alert triage and reporting work simulating an entry-level SOC Analyst role.
+- Alert triage, alert reporting, workbooks, IOC lookups
+- Example: Triaging an alert to determine true positive vs. false positive
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Understand how a Security Operations Center functions
 - Detect, investigate, and respond to security incidents
 - Analyse logs from Windows, Linux, and web servers
-- Use SIEM to correlate events and triage alerts
+- Use SIEM (including Splunk) to correlate events and triage alerts
+- Understand EDR architecture, telemetry, and detection/response capabilities
 - Perform network traffic analysis using Wireshark and TCPdump
 - Apply incident response frameworks (SANS and NIST)
 - Build practical skills for a SOC Analyst (L1) role
 
 ---
 
-##  Tools & Technologies Used
+## Tools & Technologies Used
 
 - Wireshark
 - TCPdump
 - Nmap
 - Splunk (SIEM)
+- Snort (IDS)
 - Windows Event Viewer
 - Linux Terminal (`cat`, `grep`)
 - TryHackMe AttackBox
@@ -80,32 +100,34 @@ Understanding how endpoints are monitored and protected.
 
 ---
 
-##  Skills Learned
+## Skills Learned
 
 - Threat detection and alert triage
 - Log analysis and correlation
 - Security monitoring
 - Incident response (SANS & NIST frameworks)
-- SIEM fundamentals
+- SIEM fundamentals (including Splunk)
+- EDR fundamentals and telemetry analysis
+- IDS/IPS concepts
 - Threat intelligence concepts
 - Network traffic analysis
 - Technical documentation and writeups
 
 ---
 
-##  Certifications Targeted
+## Certifications Targeted
 
 - TryHackMe SOC Level 1 (SAL1)
 
 ---
 
-##  Disclaimer
+## Disclaimer
 
 All writeups are created for educational purposes only. All activities are performed in legal and controlled lab environments provided by TryHackMe.
 
 ---
 
-##  Author
+## Author
 
 **Andrew D'Souza**
 Cybersecurity Learner | SOC | Networking | Linux | TryHackMe
