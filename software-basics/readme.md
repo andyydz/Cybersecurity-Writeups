@@ -1,198 +1,35 @@
 # Software Basics
 
-This folder contains my notes and write-ups from software-related rooms and modules completed on [TryHackMe](https://tryhackme.com/p/andyydz57).
+This folder contains my notes and write-ups from software-related rooms and modules completed on TryHackMe.
 
-The purpose of these write-ups is to build a strong understanding of software fundamentals, programming basics, databases, scripting, and how applications work in real-world environments.
+The purpose of these write-ups is to build a strong understanding of software fundamentals, data representation, scripting, and how applications work in real-world environments.
 
-Software knowledge is an important foundation in cybersecurity, automation, web applications, and system administration.
-
----
-
-# Topics Covered
-
-## 1. Data Representation
-
-Understanding how computers store and process data.
-
-### Key Concepts
-- Binary numbers
-- Decimal and hexadecimal
-- Bits and bytes
-- Character encoding
-
-### Example
-```text
-Binary: 1010
-Decimal: 10
-Hexadecimal: 0xA
-```
-
-### Real-World Use Cases
-- Computer processing
-- File storage
-- Digital communication
-- Low-level system operations
+Software knowledge is an important foundation in cybersecurity, automating repetitive tasks, and understanding how the applications a SOC analyst monitors actually function under the hood.
 
 ---
 
-## 2. Data Encoding
+## Topics Covered
 
-Learning how information is converted into specific formats for storage and communication.
+### Data & Representation
+- `data-representation.md` — How data is represented at a fundamental level (binary, hex, encoding formats)
+- `data-encoding.md` — Common data encoding schemes and how they're used and abused
+- `database-and-sql-basics.md` — Database fundamentals and SQL basics, including how queries interact with data
 
-### Key Concepts
-- ASCII
-- Unicode
-- Base64 encoding
-- Data conversion
+### Web & Applications
+- `web-application-basic.md` — How web applications are structured and how they function end-to-end
 
-### Example
-Encoding text using Base64 format.
+###  javascript/
+Notes and write-ups covering JavaScript fundamentals and its role in web application behavior.
 
-### Real-World Use Cases
-- Web communication
-- Secure data transfer
-- Email encoding
-- Application communication
+###  python/
+Notes and write-ups covering Python fundamentals and scripting basics.
+- `python-simple-demo.md`
 
 ---
 
-## 3. Database & SQL Basics
+## Why This Matters
 
-Understanding how databases store and manage information.
-
-### Key Concepts
-- Tables and records
-- SQL queries
-- CRUD operations
-- Database management
-
-### Example
-```sql
-SELECT * FROM users;
-```
-
-### Real-World Use Cases
-- E-commerce systems
-- Banking applications
-- Login systems
-- Data management platforms
+Understanding how data is represented and encoded, how databases store and retrieve information, and how web applications are built gives essential context for security work — from spotting SQL injection to understanding what a malicious script is actually doing.
 
 ---
-
-## 4. Python Basics
-
-Introduction to Python programming and scripting.
-
-### Key Concepts
-- Variables
-- Data types
-- Loops
-- Functions
-- Basic scripting
-
-### Example
-```python
-print("Hello World")
-```
-
-### Real-World Use Cases
-- Cybersecurity automation
-- Scripting
-- Tool development
-- Data processing
-
----
-
-## 5. JavaScript Basics
-
-Learning the basics of JavaScript used in web applications.
-
-### Key Concepts
-- Variables
-- Functions
-- Events
-- DOM manipulation
-
-### Example
-```javascript
-console.log("Hello World");
-```
-
-### Real-World Use Cases
-- Interactive websites
-- Web applications
-- Browser scripting
-- Frontend development
-
----
-
-# Skills Learned
-
-- Basic programming concepts
-- Database fundamentals
-- SQL basics
-- Scripting concepts
-- Problem-solving skills
-- Technical documentation
-
----
-
-# Why Software Knowledge Matters in Cybersecurity
-
-Software knowledge is essential for:
-- Understanding vulnerabilities
-- Writing automation scripts
-- Analyzing applications
-- Web security testing
-- Malware analysis
-- Security tool development
-
-Many cybersecurity tools and attacks involve software and programming concepts.
-
----
-
-# Tools & Technologies
-
-- Python
-- JavaScript
-- SQL
-- Linux / Kali Linux
-- VS Code
-- Databases
-
----
-
-# Repository Purpose
-
-This repository documents my cybersecurity learning journey through:
-- TryHackMe rooms
-- Software notes
-- Programming concepts
-- Practical examples
-- Hands-on labs
-
-The goal is to improve my understanding while building a structured cybersecurity knowledge base.
-
----
-
-# Platform
-
-- TryHackMe
-- Linux / Kali Linux
-- GitHub
-
----
-
-# Disclaimer
-
-These write-ups are created for educational purposes only.
-
-All activities are performed in legal and controlled lab environments provided by TryHackMe.
-
----
-
-# Author
-
-Andrew D Souza
-
-Cybersecurity Learner | Software Basics | Linux | TryHackMe
+More writeups: [github.com/andyydz/TryHackMe-Writeups](https://github.com/andyydz/TryHackMe-Writeups)
