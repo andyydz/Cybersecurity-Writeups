@@ -14,13 +14,13 @@
 ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝    ╚═╝      ╚═╝  
 ```
 
-### `SOC Analyst in Training` · `Blue Team` · `TryHackMe Top 6%`
+### `SOC Analyst in Training` · `Blue Team` · `TryHackMe Top 5%`
 
 <br/>
 
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-andyydz57-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/andyydz57)
-[![Rank](https://img.shields.io/badge/Global_Rank-Top_8%25-FF6B35?style=for-the-badge&logo=target&logoColor=white)](https://tryhackme.com/p/andyydz57)
-[![Rooms](https://img.shields.io/badge/Rooms_Completed-61+-22C55E?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/andyydz/TryHackMe-Writeups)
+[![Rank](https://img.shields.io/badge/Global_Rank-Top_5%25-FF6B35?style=for-the-badge&logo=target&logoColor=white)](https://tryhackme.com/p/andyydz57)
+[![Rooms](https://img.shields.io/badge/Rooms_Completed-106+-22C55E?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/andyydz/Cybersecurity-Writeups)
 [![SOC](https://img.shields.io/badge/Path-SOC_Level_1-3B82F6?style=for-the-badge&logo=shield&logoColor=white)](https://tryhackme.com/p/andyydz57)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-vinston-d-souza-41699330a/)
 
@@ -28,14 +28,15 @@
 
 ---
 ```bash
-┌──(andyy㉿kali)-[~/TryHackMe-Writeups]
+┌──(andyy㉿kali)-[~/Cybersecurity-Writeups]
 └─$ whoami
 
   Andrew D Souza     | Final-year BCA Student
 
 → Target Role        : SOC Analyst L1
 → Focus              : Blue Team · Threat Detection · Incident Response
-→ Currently on       : THM SOC Level 1 + Google Cybersecurity Certificate
+→ Currently On       : THM SOC Level 1 (Splunk, Detection Engineering)
+→ Certifications     : Google Cybersecurity Professional Certificate (in progress)
 → End Goal           : Cloud Security Engineer
 ```
 ---
@@ -62,47 +63,69 @@ Each write-up follows a consistent format:
 
 | Metric | Value |
 |--------|-------|
-|  Global Rank | Top 8% (~171,554) |
-|  Title | [0x8][HACKER] |
-|  Badges | 7 |
-|  Active Streak | 16+ days |
-|  Rooms Completed | 61+ |
+|  Global Rank | Top 5% |
+|  Title | [0x9][MAGE] |
+|  Active Streak | 46+ days |
+|  Rooms Completed | 106+ |
 |  Write-ups | Actively updated |
 
 </div>
 
 ---
 
+##  Why This Maps to SOC Work
+
+A few direct lines from lab to job floor:
+
+- **Log Fundamentals + SIEM** → triaging alerts, spotting anomalies in Splunk before they escalate
+- **Wireshark + TCPdump + Nmap** → reading traffic to confirm or rule out a suspected compromise
+- **Incident Response + Digital Forensics** → following an IR lifecycle from detection through containment
+- **Active Directory + Windows fundamentals** → understanding the environment most SOC alerts originate from
+
+---
+
 ##  Repository Structure
 
 ```text
-TryHackMe-Writeups/
+Cybersecurity-Writeups/
 │
 ├──  README.md
 ├──  attacks-and-defenses/
+│   ├── cryptography/
+│   ├── eternal-blue/
+│   ├── exploitation-basics/
+│   ├── metasploit/
+│   └── password-attacks/hydra/
 ├──  computer-fundamentals/
 ├──  cybersecurity/
+├──  google-cybersecurity-professional-cert/
 ├──  linux/
-│   ├── linux-fundamentals/
-│   ├── linux-shell/
-│   └── linux-permissions/
+├──  malware-analysis/
 ├──  network-concepts/
-│   ├── dns/
-│   ├── tcp-ip/
-│   └── http/
-├──  windows/
-│   ├── windows-fundamentals/
-│   ├── powershell/
-│   └── active-directory/
+├──  os-basics/
+├──  soc-security-operations-center/
+│   ├── blue-team-fundamental/
+│   ├── digital-forensics/
+│   ├── edr/
+│   ├── ids/
+│   ├── incident-response/
+│   ├── log/
+│   ├── nmap/
+│   ├── ping/
+│   ├── siem/
+│   ├── soc-level-1/
+│   ├── splunk/
+│   ├── tcpdump/
+│   ├── threat-intelligence/
+│   ├── vulnerability-scanning/
+│   └── wireshark/
 ├──  software-basics/
-└──  soc-security-operations-center/
-    ├──  digital-forensics/
-    ├──  incident-response/
-    ├──  logs/
-    ├──  nmap/
-    ├──  siem/
-    ├──  tcpdump/
-    └──  wireshark/
+│   ├── javascript/
+│   └── python/
+└──  web-security/
+    ├── burp-suite/
+    ├── gobuster/
+    └── sqlmap/
 ```
 
 ---
@@ -110,66 +133,81 @@ TryHackMe-Writeups/
 ##  Completed Rooms
 
 ###  SOC & Blue Team
-| Room | Difficulty | Date | Write-up |
-|------|------------|------|----------|
-| SOC Fundamentals | Easy | Jun 2026 | ✅ |
-| Security Principles | Easy | Jun 2026 | ✅ |
-| Log Fundamentals | Easy | Jun 2026 | ✅ |
-| Incident Response | Easy | Jun 2026 | ✅ |
-| Digital Forensics | Easy | Jun 2026 | ✅ |
-| SIEM Basics | Easy | Jun 2026 | ✅ |
-| Defensive Security Intro | Easy | May 2026 | ✅ |
-| Operating System Security | Easy | May 2026 | ✅ |
-| Become a Defender | Easy | May 2026 | ✅ |
+| Room | Difficulty | Write-up |
+|------|------------|----------|
+| SOC Fundamentals | Easy | ✅ |
+| Security Principles | Easy | ✅ |
+| Log Fundamentals | Easy | ✅ |
+| Incident Response | Easy | ✅ |
+| Digital Forensics | Easy | ✅ |
+| SIEM Basics / Splunk Basics | Easy | ✅ |
+| Introduction to EDR | Easy | ✅ |
+| IDS Fundamentals | Easy | ✅ |
+| Threat Intelligence: Pyramid of Pain | Easy | ✅ |
+| Defensive Security Intro | Easy | ✅ |
+| Operating System Security | Easy | ✅ |
+| Become a Defender | Easy | ✅ |
 
 ###  Network Traffic Analysis
-| Room | Difficulty | Date | Write-up |
-|------|------------|------|----------|
-| Wireshark | Easy | Jun 2026 | ✅ |
-| TCPdump | Easy | Jun 2026 | ✅ |
-| Nmap | Easy | Jun 2026 | ✅ |
+| Room | Difficulty | Write-up |
+|------|------------|----------|
+| Wireshark | Easy | ✅ |
+| TCPdump | Easy | ✅ |
+| Nmap | Easy | ✅ |
+| Vulnerability Scanning | Easy | ✅ |
 
 ###  Networking
-| Room | Difficulty | Date | Write-up |
-|------|------------|------|----------|
-| OSI Model | Easy | May 2026 | ✅ |
-| Intro to LAN | Easy | May 2026 | ✅ |
-| DNS in Detail | Easy | May 2026 | ✅ |
-| HTTP in Detail | Easy | May 2026 | ✅ |
-| Networking Core Protocols | Easy | May 2026 | ✅ |
-| Networking Secure Protocols | Easy | May 2026 | ✅ |
-| How Websites Work | Easy | May 2026 | ✅ |
+| Room | Difficulty | Write-up |
+|------|------------|----------|
+| OSI Model | Easy | ✅ |
+| Intro to LAN | Easy | ✅ |
+| DNS in Detail | Easy | ✅ |
+| HTTP in Detail | Easy | ✅ |
+| Networking Core Protocols | Easy | ✅ |
+| Networking Secure Protocols | Easy | ✅ |
+| How Websites Work | Easy | ✅ |
+| Firewall Fundamentals | Easy | ✅ |
 
 ###  Cryptography & Attacks
-| Room | Difficulty | Date | Write-up |
-|------|------------|------|----------|
-| Hashing Basics | Easy | Jun 2026 | ✅ |
-| Cryptographic Concepts | Easy | Jun 2026 | ✅ |
-| Hydra | Easy | Jun 2026 | ✅ |
+| Room | Difficulty | Write-up |
+|------|------------|----------|
+| Hashing Basics | Easy | ✅ |
+| Cryptographic Concepts | Easy | ✅ |
+| Hydra | Easy | ✅ |
+| Metasploit (Intro / Exploitation / Meterpreter) | Easy | ✅ |
+| EternalBlue | Easy | ✅ |
 
 ###  Web Security
-| Room | Difficulty | Date | Write-up |
-|------|------------|------|----------|
-| Web Application Basics | Easy | Jun 2026 | ✅ |
-| JavaScript Essentials | Easy | Jun 2026 | ✅ |
+| Room | Difficulty | Write-up |
+|------|------------|----------|
+| Web Application Basics | Easy | ✅ |
+| JavaScript Essentials | Easy | ✅ |
+| Burp Suite Basics | Easy | ✅ |
+| Gobuster Basics | Easy | ✅ |
+| SQLMap Basics | Easy | ✅ |
+| OWASP Top 10 | Easy | ✅ |
 
 ###  Linux
-| Room | Difficulty | Date | Write-up |
-|------|------------|------|----------|
-| Linux Fundamentals Part 1 | Easy | May 2026 | ✅ |
-| Linux Fundamentals Part 2 | Easy | May 2026 | ✅ |
-| Linux Fundamentals Part 3 | Easy | May 2026 | ✅ |
-| Linux CLI Basics | Easy | May 2026 | ✅ |
-| Linux Shell | Easy | May 2026 | ✅ |
+| Room | Difficulty | Write-up |
+|------|------------|----------|
+| Linux Fundamentals Part 1-3 | Easy | ✅ |
+| Linux CLI Basics | Easy | ✅ |
+| Linux Shell | Easy | ✅ |
 
 ###  Windows
-| Room | Difficulty | Date | Write-up |
-|------|------------|------|----------|
-| Windows Fundamentals 1 | Easy | May 2026 | ✅ |
-| Windows Fundamentals 2 | Easy | May 2026 | ✅ |
-| Windows CLI Basics | Easy | May 2026 | ✅ |
-| Windows Command Line | Easy | May 2026 | ✅ |
-| Active Directory Basics | Easy | May 2026 | ✅ |
+| Room | Difficulty | Write-up |
+|------|------------|----------|
+| Windows Fundamentals 1-3 | Easy | ✅ |
+| Windows CLI / Command Line / PowerShell | Easy | ✅ |
+| Active Directory Basics | Easy | ✅ |
+
+###  Malware Analysis
+| Room | Difficulty | Write-up |
+|------|------------|----------|
+| CAPA the Basics | Easy | ✅ |
+| CyberChef the Basics | Easy | ✅ |
+| FLARE-VM the Basics | Easy | ✅ |
+| REMnux Getting Started | Easy | ✅ |
 
 ---
 
@@ -180,10 +218,12 @@ SKILL                    TOOLS & CONCEPTS COVERED
 ─────────────────────────────────────────────────────────
 Log Analysis         →   Log Fundamentals, SIEM, Splunk
 Network Analysis     →   Wireshark, TCPdump, Nmap
-Threat Detection     →   SIEM, Alert Triage, IR
+Threat Detection     →   SIEM, EDR, IDS, Alert Triage
+Threat Intelligence  →   Pyramid of Pain, IOC Analysis
+Malware Analysis     →   CAPA, CyberChef, FLARE-VM, REMnux
 Digital Forensics    →   Evidence Handling, Autopsy
 Cryptography         →   Hashing (MD5/SHA), Hydra
-Web Security         →   HTTP, JS, Web App Vulnerabilities
+Web Security         →   Burp Suite, Gobuster, SQLMap, OWASP Top 10
 OS Hardening         →   Linux, Windows, Active Directory
 Incident Response    →   IR Lifecycle, Containment, Recovery
 ```
@@ -194,8 +234,6 @@ Incident Response    →   IR Lifecycle, Containment, Recovery
 
 <div align="center">
 
-
-
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
@@ -204,10 +242,17 @@ Incident Response    →   IR Lifecycle, Containment, Recovery
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-004170?style=for-the-badge&logo=nmap&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
 ![Cisco](https://img.shields.io/badge/Cisco_Packet_Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-
-
+![SIEM](https://img.shields.io/badge/SIEM-2E7D32?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![Splunk Enterprise](https://img.shields.io/badge/Splunk_Enterprise-000000?style=for-the-badge&logo=splunk&logoColor=white)
+![Wazuh](https://img.shields.io/badge/Wazuh-3CB371?style=for-the-badge&logo=wazuh&logoColor=white)
+![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Elastic ELK](https://img.shields.io/badge/Elastic_(ELK)_Stack-005571?style=for-the-badge&logo=elastic&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
+![SQLMap](https://img.shields.io/badge/SQLMap-2E2E2E?style=for-the-badge&logo=postgresql&logoColor=white)
+![OWASP](https://img.shields.io/badge/OWASP_Top_10-000000?style=for-the-badge&logo=owasp&logoColor=white)
+![Hydra](https://img.shields.io/badge/Hydra-9C27B0?style=for-the-badge&logo=hydra&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
 
 </div>
 
@@ -217,7 +262,7 @@ Incident Response    →   IR Lifecycle, Containment, Recovery
 
 All write-ups are created for **educational purposes only**.
 All activities are performed inside **legal, controlled lab environments** provided by TryHackMe.
-No real systems were targeted. Always hack ethically. 
+No real systems were targeted. Always hack ethically.
 
 ---
 
