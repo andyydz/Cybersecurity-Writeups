@@ -46,4 +46,5 @@ Core security principles — Confidentiality, Integrity, and Availability — an
 Each subfolder groups write-ups by technique or tool so related concepts stay together — cryptography concepts in one place, exploitation techniques in another, and so on — while root-level files cover foundational, cross-cutting concepts (mindset, CIA triad) that apply across every room in this folder.
 
 ---
+
 More writeups: [github.com/andyydz/TryHackMe-Writeups](https://github.com/andyydz/TryHackMe-Writeups)
