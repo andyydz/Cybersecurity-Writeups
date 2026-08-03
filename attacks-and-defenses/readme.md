@@ -7,6 +7,7 @@ This folder contains my notes and write-ups from attack and defense-related room
 ## Contents
 
 ###  cryptography/
+
 Core cryptographic concepts — symmetric vs. asymmetric encryption, RSA, Diffie-Hellman key exchange, digital signatures, certificates, hashing, and PGP/GPG.
 - `basics-and-public-key.md`
 - `cryptographic-concepts.md`
