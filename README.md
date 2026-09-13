@@ -63,7 +63,7 @@ Each write-up follows a consistent format:
 
 | Metric | Value |
 |--------|-------|
-|  Global Rank | Top 5% |
+|  Global Rank | Top 4% |
 |  Title | [0x9][MAGE] |
 |  Active Streak | 46+ days |
 |  Rooms Completed | 106+ |
