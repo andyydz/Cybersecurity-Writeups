@@ -19,7 +19,7 @@
 <br/>
 
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-andyydz57-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/andyydz57)
-[![Rank](https://img.shields.io/badge/Global_Rank-Top_5%25-FF6B35?style=for-the-badge&logo=target&logoColor=white)](https://tryhackme.com/p/andyydz57)
+[![Rank](https://img.shields.io/badge/Global_Rank-Top_4%25-FF6B35?style=for-the-badge&logo=target&logoColor=white)](https://tryhackme.com/p/andyydz57)
 [![Rooms](https://img.shields.io/badge/Rooms_Completed-106+-22C55E?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/andyydz/Cybersecurity-Writeups)
 [![SOC](https://img.shields.io/badge/Path-SOC_Level_1-3B82F6?style=for-the-badge&logo=shield&logoColor=white)](https://tryhackme.com/p/andyydz57)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-vinston-d-souza-41699330a/)
