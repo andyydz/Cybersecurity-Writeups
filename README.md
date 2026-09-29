@@ -270,9 +270,9 @@ No real systems were targeted. Always hack ethically.
 
 ```
 ╔══════════════════════════════════════════════════════╗
-║           BUILT IN PUBLIC. LEARNING OUT LOUD.        ║
-║                                                      ║
-║   Every commit is a step closer to the SOC floor.    ║
+║           BUILT IN PUBLIC. LEARNING OUT LOUD.                  ║
+║                                                                ║
+║   Every commit is a step closer to the SOC floor.              ║
 ╚══════════════════════════════════════════════════════╝
 ```
 
