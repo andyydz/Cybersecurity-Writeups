@@ -1,7 +1,3 @@
-# Cybersecurity Write-ups
-
-**Aspiring SOC Analyst | Blue Team | Threat Detection & Incident Response**
-
 <p align="center">
   <img src="assets/andyy-banner.jpeg"
        alt="ANDYYDZ57 — Cybersecurity Write-Ups"
@@ -15,7 +11,11 @@
   </a>
   <br>
   <a href="https://tryhackme.com/p/andyydz57">View my TryHackMe profile</a>
-</p>
+</p> 
+
+# Cybersecurity Write-ups
+
+**Aspiring SOC Analyst | Blue Team | Threat Detection & Incident Response**
 
 ---
 I am a final-year BCA student building practical defensive-security skills through lab write-ups and projects. This repository is my technical documentation record, written with attention to how each topic applies in a Security Operations Center.
