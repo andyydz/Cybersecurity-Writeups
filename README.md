@@ -3,7 +3,7 @@
 **Aspiring SOC Analyst | Blue Team | Threat Detection & Incident Response**
 
 <p align="center">
-  <img src="assets/andyy-banner.jpg"
+  <img src="assets/andyy-banner.jpeg"
        alt="ANDYYDZ57 — Cybersecurity Write-Ups"
        width="100%">
 </p>
