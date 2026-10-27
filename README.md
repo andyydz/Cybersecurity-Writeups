@@ -2,6 +2,22 @@
 
 **Aspiring SOC Analyst | Blue Team | Threat Detection & Incident Response**
 
+<p align="center">
+  <img src="asset/andyy-banner.jpg"
+       alt="ANDYYDZ57 — Cybersecurity Write-Ups"
+       width="100%">
+</p>
+
+<p align="center">
+  <a href="https://tryhackme.com/p/andyydz57">
+    <img src="https://tryhackme-badges.s3.amazonaws.com/andyydz57.png"
+         alt="TryHackMe profile badge">
+  </a>
+  <br>
+  <a href="https://tryhackme.com/p/andyydz57">View my TryHackMe profile</a>
+</p>
+
+---
 I am a final-year BCA student building practical defensive-security skills through lab write-ups and projects. This repository is my technical documentation record, written with attention to how each topic applies in a Security Operations Center.
 
 [GitHub](https://github.com/andyydz) · [TryHackMe profile](https://tryhackme.com/p/andyydz57) · [LinkedIn](https://www.linkedin.com/in/andrew-vinston-d-souza-41699330a/)
